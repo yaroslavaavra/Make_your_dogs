@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #121212;
+}
+.span {
+    color: #b2ffa6;
+}
+.header-link {
+    color: white;
+}
