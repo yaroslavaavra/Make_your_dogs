@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
 }
 h1, h2, h3, p, ul {
     margin: 0;
@@ -27,11 +29,13 @@ ul {
     justify-content: space-between;
     padding-left: 100px;
 }
-.span {
+.header-link:hover {
     color: #b2ffa6;
+    font-family: "Oswald", sans-serif;
 }
 .header-link {
     color: white;
+    font-family: "Oswald", sans-serif;
 }
 .header-list {
     display: flex;
@@ -40,17 +44,21 @@ ul {
 /* Перша секція */
 .hero-container {
     display: flex;
-    gap: 57px;
+    gap: 189px;
     align-items: center;
 }
 .hero-title {
-    font-weight: 700;
-    font-size: 48px;
     line-height: 103%;
     padding: 16px 0;
+    font-weight: 700;
+    font-size: 64px;
+    margin-left: 150px;
+    padding-bottom: 50px;
 }
 .hero-span {
-    font-size: 54px;
+    font-weight: 400;
+    font-size: 64px;
+    margin-left: 150px;
 }
 .hero-button {
     background: #b2ffa6;
@@ -58,27 +66,30 @@ ul {
     padding: 15px 80px;
     text-decoration: none;
     color: #000000;
+    font-family: "Oswald", sans-serif;
+    margin-left: 150px;
 }
 .hero-img {
     height: 800px;
 }
 /* Друга section */
-.About-Us {
+.about-us {
     background: #efefef;
 }
-.About-Us-container {
+.about-us-container {
     display: flex;
     gap: 57px;
     align-items: center;
 }
-.About-Us-title {
+.about-us-title {
     display: flex;
-    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 40px;
 }
-.About-Us-text {
+.about-us-text {
     display: flex;
     font-size: 22px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 .learn-more {
     background: #b2ffa6;
@@ -88,66 +99,64 @@ ul {
     height: 26px;
     text-decoration: none;
     color: #000000;
-    margin-left: 790px;
-    
+    font-family: "Oswald", sans-serif;
 }
-.About-Us-img {
+.about-us-img {
     width: 442px;
     height: 442px;
     padding-left: 50px;
 }
 /* Третя section */
 .third-section {
-    padding-top: ;
-    padding-bottom: ;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .third-section-container{
     display: flex;
-    gap: 57px;
+    gap: 116px;
     align-items: center;
-    
+}
+.third-section-item {
+    display: flex;
+    gap: 28px;
+    width: 407px;
 }
 .third-section-img {
-    width: 317px;
-    height: 468px;
-    padding-left: 959px;
-    padding-top: 50px;
+    width: 517px;
+    height: 768px;
 }
 .third-section-img2 {
-    padding-left: 100px;
     width: 50px;
     height: 50px;
     display: flex;
-    
+}
+.third-section-text {
+    font-weight: 400;
+    font-size: 24px;
 }
 .third-section-caption {
-    padding-left: 158px;
-    padding-top: 1px;
-    
-}
-.text {
-    padding-left: 158px;
-    padding-right: 50px;
+    font-weight: 700;
+    font-size: 32px;
 }
 .third-section-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 116px;
 }
 
 /* Четверта section */ 
 .services {
     background: #efefef;
-    padding-top: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.services-container {
-    
-}
+
 .services-list {
     display: flex;
+    gap: 20px;
 }
-.title {
+.services-title {
     text-align: center;
-    padding-bottom: 10px;
     font-weight: 700;
     font-size: 40px;
 }
@@ -156,37 +165,31 @@ ul {
     font-size: 32px;
     text-align: center;
     margin-left: 15px;
-}
-.services-img {
-    display: flex;
-    margin-left: 100px;
-    
+    padding-bottom: 56px;
 }
 .services-caption {
-    display: flex;
-    margin-left: 100px;
-    
+    padding-bottom: 80px;
 }
 .services-link {
     border: 3px solid #b2ffa6;
     border-radius: 5px;
     padding: 15px 80px;
-    width: 356px;
-    height: 66px;
     text-decoration: none;
     color: #000000;
     margin-left: 500px;
+    font-family: "Oswald", sans-serif;
+}
+.services-img {
+    width: 390px;
+    height: 286px;
 }
 /* Footer */
 .footer {
     background: #121212;
-    padding-top: ;
-    
 }
 .footer-container {
     display: flex;
     justify-content: space-between;
-    
 }
 .footer-link {
     text-decoration: none;
@@ -196,3 +199,4 @@ ul {
     margin-left: 100px;
     padding-bottom: 5px;
 }
+
