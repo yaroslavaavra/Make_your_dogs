@@ -27,7 +27,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 100px;
+    padding-left: 150px;
 }
 .header-link:hover {
     color: #b2ffa6;
@@ -39,26 +39,25 @@ ul {
 }
 .header-list {
     display: flex;
-    gap: 64px;
+    gap: 100px;
 }
 /* Перша секція */
 .hero-container {
     display: flex;
     gap: 189px;
     align-items: center;
+    margin-left: 150px;
 }
 .hero-title {
     line-height: 103%;
     padding: 16px 0;
     font-weight: 700;
     font-size: 64px;
-    margin-left: 150px;
     padding-bottom: 50px;
 }
 .hero-span {
     font-weight: 400;
     font-size: 64px;
-    margin-left: 150px;
 }
 .hero-button {
     background: #b2ffa6;
@@ -67,7 +66,6 @@ ul {
     text-decoration: none;
     color: #000000;
     font-family: "Oswald", sans-serif;
-    margin-left: 150px;
 }
 .hero-img {
     height: 800px;
@@ -177,11 +175,10 @@ ul {
     padding: 15px 80px;
     text-decoration: none;
     color: #000000;
-    margin-left: 500px;
     font-family: "Oswald", sans-serif;
     display: inline-block;
-    margin-top: 133px;
-    margin-bottom: 60px;
+    margin-top: 80px;
+    align-items: center;
 }
 .services-img {
     width: 390px;
@@ -197,13 +194,13 @@ ul {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    margin-left: 151px;
 }
 .footer-link {
     text-decoration: none;
     color: white;
     width: 277px;
     height: 78px;
-    margin-left: 151px;
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -214,6 +211,5 @@ ul {
     color: #fff;
     padding-bottom: 61px;
     padding-top: 61px;
-    margin-right: 150px;
 }
 
