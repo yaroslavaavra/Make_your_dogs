@@ -20,8 +20,8 @@ ul {
 .header {
     background: #121212;
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-container {
     display: flex;
@@ -85,11 +85,12 @@ ul {
     display: flex;
     font-weight: 700;
     font-size: 40px;
+    padding-bottom: 30px;
 }
 .about-us-text {
     display: flex;
     font-size: 22px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .learn-more {
     background: #b2ffa6;
@@ -101,11 +102,6 @@ ul {
     color: #000000;
     font-family: "Oswald", sans-serif;
 }
-.about-us-img {
-    width: 442px;
-    height: 442px;
-    padding-left: 50px;
-}
 /* Третя section */
 .third-section {
     padding-top: 60px;
@@ -115,6 +111,8 @@ ul {
     display: flex;
     gap: 116px;
     align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .third-section-item {
     display: flex;
@@ -134,9 +132,10 @@ ul {
     font-weight: 400;
     font-size: 24px;
 }
-.third-section-caption {
+.third-section-title {
     font-weight: 700;
     font-size: 32px;
+    padding-bottom: 25px;
 }
 .third-section-list {
     display: flex;
@@ -149,6 +148,7 @@ ul {
     background: #efefef;
     padding-top: 60px;
     padding-bottom: 60px;
+    text-align: center
 }
 
 .services-list {
@@ -159,12 +159,13 @@ ul {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
+    padding-bottom: 40px;
 }
 .services-text {
     font-weight: 400;
     font-size: 32px;
-    text-align: center;
-    margin-left: 15px;
+    margin-left: 287px;
+    margin-right: 287px;
     padding-bottom: 56px;
 }
 .services-caption {
@@ -178,14 +179,20 @@ ul {
     color: #000000;
     margin-left: 500px;
     font-family: "Oswald", sans-serif;
+    display: inline-block;
+    margin-top: 133px;
+    margin-bottom: 60px;
 }
 .services-img {
     width: 390px;
     height: 286px;
+    
 }
 /* Footer */
 .footer {
     background: #121212;
+    width: 1920px;
+    height: 150px;
 }
 .footer-container {
     display: flex;
@@ -194,9 +201,19 @@ ul {
 .footer-link {
     text-decoration: none;
     color: white;
+    width: 277px;
+    height: 78px;
+    margin-left: 151px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer-text {
     font-weight: 400;
     font-size: 24px;
-    margin-left: 100px;
-    padding-bottom: 5px;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 61px;
+    padding-top: 61px;
+    margin-right: 150px;
 }
 
