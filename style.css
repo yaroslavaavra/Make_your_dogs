@@ -27,7 +27,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 150px;
+    
 }
 .header-link:hover {
     color: #b2ffa6;
@@ -40,13 +40,13 @@ ul {
 .header-list {
     display: flex;
     gap: 100px;
+    padding-left: 150px;
 }
 /* Перша секція */
 .hero-container {
     display: flex;
-    gap: 189px;
     align-items: center;
-    margin-left: 150px;
+    
 }
 .hero-title {
     line-height: 103%;
@@ -94,8 +94,6 @@ ul {
     background: #b2ffa6;
     border-radius: 5px;
     padding: 10px 60px;
-    width: 264px;
-    height: 26px;
     text-decoration: none;
     color: #000000;
     font-family: "Oswald", sans-serif;
@@ -152,6 +150,7 @@ ul {
 .services-list {
     display: flex;
     gap: 20px;
+    padding-bottom: 80px;
 }
 .services-title {
     text-align: center;
@@ -167,7 +166,7 @@ ul {
     padding-bottom: 56px;
 }
 .services-caption {
-    padding-bottom: 80px;
+    text-align: left;
 }
 .services-link {
     border: 3px solid #b2ffa6;
@@ -177,7 +176,6 @@ ul {
     color: #000000;
     font-family: "Oswald", sans-serif;
     display: inline-block;
-    margin-top: 80px;
     align-items: center;
 }
 .services-img {
