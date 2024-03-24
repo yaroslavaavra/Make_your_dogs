@@ -107,8 +107,6 @@ ul {
     display: flex;
     gap: 116px;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 .third-section-item {
     display: flex;
