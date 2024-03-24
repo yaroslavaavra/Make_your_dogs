@@ -22,12 +22,12 @@ ul {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    text-transform: capitalize;
 }
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 .header-link:hover {
     color: #b2ffa6;
@@ -184,13 +184,10 @@ ul {
 /* Footer */
 .footer {
     background: #121212;
-    width: 1920px;
-    height: 150px;
 }
 .footer-container {
     display: flex;
     justify-content: space-between;
-    margin-left: 151px;
 }
 .footer-link {
     text-decoration: none;
