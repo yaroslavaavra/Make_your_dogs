@@ -29,16 +29,13 @@ ul {
 
 .header {
     background: #121212;
-    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    text-transform: capitalize;
 }
 
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-link:hover {
@@ -67,6 +64,7 @@ ul {
     padding: 16px 0;
     font-weight: 700;
     font-size: 64px;
+    
 }
 
 .hero-title {
@@ -83,11 +81,7 @@ ul {
     font-family: "Oswald", sans-serif;
     display: inline-block;
     margin-top: 50px;
-}
-
-.hero-img {
-    height: 800px;
-    margin-left: 189px;
+    text-align: left;
 }
 
 /* Друга section */
