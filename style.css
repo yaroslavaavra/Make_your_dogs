@@ -9,6 +9,7 @@ h1, h2, h3, p, ul {
 }
 a {
     text-decoration: none;
+    text-transform: capitalize;
 }
 ul {
     list-style: none;
@@ -54,7 +55,7 @@ ul {
     font-size: 64px;
     padding-bottom: 50px;
 }
-.hero-span {
+.hero-h1 {
     font-weight: 400;
     font-size: 64px;
 }
