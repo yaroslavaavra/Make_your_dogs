@@ -9,7 +9,7 @@ h1, h2, h3, p, ul {
 }
 a {
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 ul {
     list-style: none;
@@ -41,21 +41,20 @@ ul {
 .header-list {
     display: flex;
     gap: 100px;
-    padding-left: 150px;
 }
 /* Перша секція */
 .hero-container {
     display: flex;
     align-items: center;
 }
-.hero-title {
+.hero-span {
     line-height: 103%;
     padding: 16px 0;
     font-weight: 700;
     font-size: 64px;
     padding-bottom: 50px;
 }
-.hero-h1 {
+.hero-title {
     font-weight: 400;
     font-size: 64px;
 }
