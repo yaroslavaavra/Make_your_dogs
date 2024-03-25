@@ -3,21 +3,30 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
 }
-h1, h2, h3, p, ul {
+
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 ul {
     list-style: none;
 }
+
 .container {
     margin: 0 auto;
     width: 1620px;
 }
+
 .header {
     background: #121212;
     display: flex;
@@ -25,39 +34,46 @@ ul {
     padding-bottom: 32px;
     text-transform: capitalize;
 }
+
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .header-link:hover {
     color: #b2ffa6;
     font-family: "Oswald", sans-serif;
 }
+
 .header-link {
     color: white;
     font-family: "Oswald", sans-serif;
 }
+
 .header-list {
     display: flex;
     gap: 100px;
 }
+
 /* Перша секція */
 .hero-container {
     display: flex;
     align-items: center;
 }
+
 .hero-span {
     line-height: 103%;
     padding: 16px 0;
     font-weight: 700;
     font-size: 64px;
-    padding-bottom: 50px;
 }
+
 .hero-title {
     font-weight: 400;
     font-size: 64px;
 }
+
 .hero-button {
     background: #b2ffa6;
     border-radius: 5px;
@@ -65,31 +81,42 @@ ul {
     text-decoration: none;
     color: #000000;
     font-family: "Oswald", sans-serif;
+    display: inline-block;
+    margin-top: 50px;
 }
+
 .hero-img {
     height: 800px;
     margin-left: 189px;
 }
+
 /* Друга section */
 .about-us {
     background: #efefef;
 }
+
 .about-us-container {
     display: flex;
     gap: 57px;
     align-items: center;
 }
+
 .about-us-title {
     display: flex;
     font-weight: 700;
     font-size: 40px;
     padding-bottom: 30px;
 }
+
 .about-us-text {
     display: flex;
     font-size: 22px;
     padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
 }
+
 .learn-more {
     background: #b2ffa6;
     border-radius: 5px;
@@ -98,46 +125,55 @@ ul {
     color: #000000;
     font-family: "Oswald", sans-serif;
 }
+
 /* Третя section */
 .third-section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.third-section-container{
+
+.third-section-container {
     display: flex;
     gap: 116px;
     align-items: center;
 }
+
 .third-section-item {
     display: flex;
     gap: 28px;
     width: 407px;
 }
+
 .third-section-img {
     width: 517px;
     height: 768px;
 }
+
 .third-section-img2 {
     width: 50px;
     height: 50px;
     display: flex;
 }
+
 .third-section-text {
     font-weight: 400;
     font-size: 24px;
+    color: #000;
 }
+
 .third-section-title {
     font-weight: 700;
     font-size: 32px;
     padding-bottom: 25px;
 }
+
 .third-section-list {
     display: flex;
     flex-wrap: wrap;
     gap: 116px;
 }
 
-/* Четверта section */ 
+/* Четверта section */
 .services {
     background: #efefef;
     padding-top: 60px;
@@ -150,12 +186,14 @@ ul {
     gap: 20px;
     padding-bottom: 80px;
 }
+
 .services-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
     padding-bottom: 40px;
 }
+
 .services-text {
     font-weight: 400;
     font-size: 32px;
@@ -163,9 +201,12 @@ ul {
     margin-right: 287px;
     padding-bottom: 56px;
 }
+
 .services-caption {
     text-align: left;
+    padding-top: 25px;
 }
+
 .services-link {
     border: 3px solid #b2ffa6;
     border-radius: 5px;
@@ -176,19 +217,23 @@ ul {
     display: inline-block;
     align-items: center;
 }
+
 .services-img {
     width: 390px;
     height: 286px;
-    
+
 }
+
 /* Footer */
 .footer {
     background: #121212;
 }
+
 .footer-container {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-link {
     text-decoration: none;
     color: white;
@@ -197,6 +242,7 @@ ul {
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 .footer-text {
     font-weight: 400;
     font-size: 24px;
@@ -205,4 +251,3 @@ ul {
     padding-bottom: 61px;
     padding-top: 61px;
 }
-
