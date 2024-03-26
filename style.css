@@ -224,6 +224,7 @@ ul {
 .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-link {
@@ -240,5 +241,4 @@ ul {
     font-size: 24px;
     text-transform: capitalize;
     color: #fff;
-    align-items: center;
 }
