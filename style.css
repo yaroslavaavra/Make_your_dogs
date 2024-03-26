@@ -231,8 +231,8 @@ ul {
     color: white;
     width: 277px;
     height: 78px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 36px;
+    padding-top: 36px;
 }
 
 .footer-text {
@@ -240,6 +240,5 @@ ul {
     font-size: 24px;
     text-transform: capitalize;
     color: #fff;
-    padding-bottom: 61px;
-    padding-top: 61px;
+    align-items: center;
 }
